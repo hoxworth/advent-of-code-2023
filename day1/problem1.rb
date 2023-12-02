@@ -49,6 +49,8 @@ File.readlines('input', chomp: true).each do |line|
 
     str = first + last
     sum = sum + str.to_i
+
+    puts str + " " + str
 end
 
 puts sum
